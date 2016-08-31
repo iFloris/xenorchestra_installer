@@ -8,8 +8,13 @@ The default username and password are applied, admin@admin.net and admin for the
 
     sudo bash
     <password>
-    sudo curl https://raw.githubusercontent.com/scottalanmiller/xenorchestra_installer/master/xo_install.sh | bash
+    sudo curl https://raw.githubusercontent.com/iFloris/xenorchestra_installer/master/xo_install.sh | bash
     <password>
     
     
 If you don't want NFS capabilities run "sudo apt-get remove nfs-common".
+
+##Credits
+Based on the awesome script [here](https://github.com/scottalanmiller/xenorchestra_installer) by [scottalanmiller](https://github.com/scottalanmiller) and using the changes proposed by [Danp2](https://github.com/Danp2) in his pull request [here](https://github.com/Danp2/xenorchestra_installer/commit/33f08faec83a094ab53756bc773b85e98eb3e51f)
+
+
